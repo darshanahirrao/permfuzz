@@ -32,3 +32,14 @@ npm test         # analysis engine test suite
 
 No em dashes, no emojis, no badge images. Simulated demos are labelled as
 simulations. Analysis tools are genuinely real.
+
+## Projects
+
+| Project | Kind | Status |
+|---|---|---|
+| [permfuzz](apps/permfuzz) | Open source | Built, QA passed, not deployed |
+| judge-audit | Open source | Not started |
+| voice-receptionist | Demo | Not started |
+
+QA evidence for permfuzz is in [qa/permfuzz-qa-2026-09-20.md](qa/permfuzz-qa-2026-09-20.md).
+QA scripts live in `scripts/qa/`.
