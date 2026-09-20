@@ -1,0 +1,23 @@
+{
+  "name": "labs",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Darshan Ahirrao's public work: open-source agent instrumentation and closed-source client demos.",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=@darsh/permfuzz",
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "axe-core": "^4.13.0",
+    "playwright-core": "^1.63.0"
+  }
+}
